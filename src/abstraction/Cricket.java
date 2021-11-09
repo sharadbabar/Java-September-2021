@@ -11,5 +11,6 @@ public class Cricket implements SportInterface,SportInterface2 {
     public static void main(String[] args) {
         Cricket obj=new Cricket();
         obj.play();
+
     }
 }
