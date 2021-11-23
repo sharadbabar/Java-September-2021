@@ -7,7 +7,7 @@
 List(I)                                     Queue(I)                           set(I)
     -ArrayList(C)                               -PriorityQueue(C)                -HashSet(C)         //doesnt maintain the insertion sequence
     -LinkedList(C)                                                               -LinkedHashSet(C)  //maintain the insertion sequence
-    -Vector(C)
+    -Vector(C)                                                                   -
         -Stack(C)
 
 
