@@ -20,10 +20,8 @@ public class JdbcDemo {
 //            String update=""
             int i = statement.executeUpdate(insert);
             System.out.println("Record Inserted-->" + i);
-        } catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
         }
     }
 
